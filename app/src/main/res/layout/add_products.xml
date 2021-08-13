@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="@dimen/twelve_dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp" />
+    <EditText
+        android:id="@+id/enterPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textSize="12sp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp" />
+    <EditText
+        android:id="@+id/enterDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textSize="12sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp" />
+
+</LinearLayout>
